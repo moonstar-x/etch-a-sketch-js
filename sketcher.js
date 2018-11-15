@@ -19,7 +19,5 @@ function Sketcher() {
     this.new.x = constrain(this.new.x, x1, x2);
     this.new.y = constrain(this.new.y, y1, y2);
     rect(this.new.x, this.new.y, this.penSize, this.penSize);
-    this.old.x = this.new.x;
-    this.old.y = this.new.y;
   }
 }
